@@ -209,13 +209,14 @@ const Screen = () => {
           textAlign: 'center',
           pt: 3,
           pb: 3,
+          
 
           fontSize: { xs: '10px', sm: '12px' },
           color: '#666',
           position: 'relative',
         }}
       >
-        <Typography variant="body2" sx={{ mb: 1 }}>
+        <Typography variant="body2" sx={{ mb: 1 , pr:3}}>
           Welcome to one of Flatiron Media’s suites of content and promotions websites. 
           Our portfolio of lifestyle sites is an indispensable tool that informs, inspires 
           and entertains millions of consumers.
@@ -225,11 +226,14 @@ const Screen = () => {
           Sweepstakes subject to Official Rules. Sponsor: Flatiron Media, LLC.
         </Typography>
         <Typography variant="body2" sx={{ mt: 2 }}>
-          Copyright © 2015-2025. All rights reserved. Everyday Winner is a trademark of Flatiron Media, LLC –
-          <span style={{ color: '#0077cc', marginLeft: '4px', marginRight: '4px' }}>Privacy Policy</span> |
-          <span style={{ color: '#0077cc', marginLeft: '4px', marginRight: '4px' }}>Official Rules</span> |
-          <span style={{ color: '#0077cc', marginLeft: '4px', marginRight: '4px' }}>Terms of Service</span>
-        </Typography>
+  Copyright © 2015-2025. All rights reserved.
+  <br />
+  Everyday Winner is a trademark of Flatiron Media, LLC  <br />
+  <span style={{ color: '#0077cc', marginLeft: '4px', marginRight: '4px' }}>Privacy Policy</span> |
+  <span style={{ color: '#0077cc', marginLeft: '4px', marginRight: '4px' }}>Official Rules</span> |
+  <span style={{ color: '#0077cc', marginLeft: '4px', marginRight: '4px' }}>Terms of Service</span>
+</Typography>
+
       </Box>
     </Box>
   );
